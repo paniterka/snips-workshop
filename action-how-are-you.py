@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 from hermes_python.hermes import Hermes
 
-INTENT_HOW_ARE_YOU = "bezzam:how_are_you"
+INTENT_HOW_ARE_YOU = "tkdev:how_are_you"
 
 
 def main():
