@@ -6,7 +6,7 @@ INTENT_HOW_ARE_YOU = "tkdev:how_are_you"
 
 
 def main():
-    with Hermes("localhost:1883") as h:
+    with Hermes("127.0.0.1:1883") as h:
         h.subscribe_intent(INTENT_HOW_ARE_YOU, how_are_you_callback) \
          .start()
 
